@@ -1,0 +1,72 @@
+firstvar        =       1236548654;
+secondvar       =       685453245863541;
+thirdvar        =       0;
+inputvar        =       0;
+statevar        =       0;
+
+input(inputvar);
+
+iamaverylongvariablenametoensureyourparsercanparselongnameslikethisone=(((firstvar+secondvar)%1000)*5)/17;
+testvar=iamaverylongvariablenametoensureyourparsercanparselongnameslikethisone-1;
+
+
+if (inputvar *3+ 6/ 2 > 10+firstvar*3) {
+        thirdvar=(firstvar * 4 / 2 + 1 - (43 + (112-21 / (inputvar/2)))) % 100000000;
+}
+else
+{
+        thirdvar=(secondvar * 4 / 2 + 1 - (43 + (112-21 / (inputvar/2)))) % 100000000
+}
+
+othervar =(secondvar-firstvar);
+
+if (thirdvar > othervar) {
+        if (firstvar <= thirdvar) {
+                if(firstvar < secondvar) {
+                        if (secondvar >= thirdvar) {
+                                statevar = 99;
+                        }
+                        else{
+                                statevar = statevar+1;
+                        }
+                }
+                else
+                {
+                        if (secondvar!=thirdvar) {
+                                statevar = 101;
+                                }
+                        else
+                        {
+                                statevar = 100;
+                        }
+                }
+        }
+        else {
+                if(firstvar < secondvar) {
+                        if (secondvar > thirdvar) {
+                                statevar = 92;
+                                }
+                        else{
+                                statevar = 91;
+                        }
+                }
+                else
+                {
+                        if (secondvar == thirdvar) {
+                                statevar = 90;
+                        }
+                        else
+                        {
+                                statevar = 89;
+                        }
+                }
+        }
+}
+else {
+        if(thirdvar < othervar) {
+                statevar = 2;
+                }
+        else {
+                statevar = 3;
+        }
+}

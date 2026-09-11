@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "front.h": "c",
+        "parser.h": "c"
+    }
+}
